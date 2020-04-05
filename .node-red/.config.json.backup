@@ -2,7 +2,7 @@
  "nodes": {
   "node-red": {
    "name": "node-red",
-   "version": "1.0.4",
+   "version": "1.0.4-git",
    "local": false,
    "nodes": {
     "inject": {
@@ -390,6 +390,158 @@
      "local": false,
      "module": "node-red-node-tail",
      "file": "/home/luis/Proyecto/node_modules/node-red-node-tail/28-tail.js"
+    }
+   }
+  },
+  "node-red-contrib-modbus": {
+   "name": "node-red-contrib-modbus",
+   "version": "5.8.0",
+   "local": false,
+   "nodes": {
+    "Modbus-Client": {
+     "name": "Modbus-Client",
+     "types": [
+      "modbus-client"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-client.js"
+    },
+    "Modbus-Flex-Connector": {
+     "name": "Modbus-Flex-Connector",
+     "types": [
+      "modbus-flex-connector"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-flex-connector.js"
+    },
+    "Modbus-Flex-Getter": {
+     "name": "Modbus-Flex-Getter",
+     "types": [
+      "modbus-flex-getter"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-flex-getter.js"
+    },
+    "Modbus-Flex-Server": {
+     "name": "Modbus-Flex-Server",
+     "types": [
+      "modbus-flex-server"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-flex-server.js"
+    },
+    "Modbus-Flex-Write": {
+     "name": "Modbus-Flex-Write",
+     "types": [
+      "modbus-flex-write"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-flex-write.js"
+    },
+    "Modbus-Getter": {
+     "name": "Modbus-Getter",
+     "types": [
+      "modbus-getter"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-getter.js"
+    },
+    "Modbus-IO-Config": {
+     "name": "Modbus-IO-Config",
+     "types": [
+      "modbus-io-config"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-io-config.js"
+    },
+    "Modbus-Queue-Info": {
+     "name": "Modbus-Queue-Info",
+     "types": [
+      "modbus-queue-info"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-queue-info.js"
+    },
+    "Modbus-Read": {
+     "name": "Modbus-Read",
+     "types": [
+      "modbus-read"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-read.js"
+    },
+    "Modbus-Response": {
+     "name": "Modbus-Response",
+     "types": [
+      "modbus-response"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-response.js"
+    },
+    "Modbus-Response-Filter": {
+     "name": "Modbus-Response-Filter",
+     "types": [
+      "modbus-response-filter"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-response-filter.js"
+    },
+    "Modbus-Server": {
+     "name": "Modbus-Server",
+     "types": [
+      "modbus-server"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-server.js"
+    },
+    "Modbus-Write": {
+     "name": "Modbus-Write",
+     "types": [
+      "modbus-write"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-modbus",
+     "file": "/home/luis/Proyecto/node_modules/node-red-contrib-modbus/modbus/modbus-write.js"
+    }
+   }
+  }
+ },
+ "_credentialSecret": "43e65889fe140acdc4c23c48129cd9bbf390936596ef9ea590afbb3079dcb2ae",
+ "users": {
+  "_": {
+   "editor": {
+    "view": {
+     "view-show-grid": true,
+     "view-snap-grid": true,
+     "view-grid-size": 20,
+     "view-node-status": true,
+     "view-node-show-label": true,
+     "view-show-tips": true
     }
    }
   }
